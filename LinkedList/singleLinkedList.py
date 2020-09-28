@@ -24,7 +24,8 @@ class LinkedList:
         itr.next = node
 
     def delete_beginning(self):
-        
+        pass
+
 
     def print(self):
         if self.head is None:
