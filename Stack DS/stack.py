@@ -31,11 +31,10 @@ class Stack:
         rstr = ''
         while self.length() != 0:
             rstr += self.pop()
-
         print("the reverse order of the given string is", rstr)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":      # entry point
     s = Stack()
     s.reverse_string("hi everyone")
     s.reverse_string("my name is raghu")
