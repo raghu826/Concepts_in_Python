@@ -23,3 +23,19 @@ class Stack:
     def length(self):
         return len(self.box)
 
+# to reverse the string using the functions push and pop
+    def reverse_string(self, data):
+        for i in data:
+            self.push(i)
+
+        rstr = ''
+        while self.length() != 0:
+            rstr += self.pop()
+
+        print("the reverse order of the given string is", rstr)
+
+
+if __name__ == "__main__":
+    s = Stack()
+    s.reverse_string("hi everyone")
+    s.reverse_string("my name is raghu")
