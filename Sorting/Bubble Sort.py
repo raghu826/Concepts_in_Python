@@ -1,5 +1,6 @@
 # implementing bubble sort
- lst = []
+
+lst = []
 
 num = int(input("length of the list: " ))
 
