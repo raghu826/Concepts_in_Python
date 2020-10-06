@@ -12,8 +12,11 @@ class Handle:
         except Exception as e:
 
             print(r" denominator should not be zero" , e)
+        else:
+            print("if exception fails else will execute ")
+
         finally:
-            print("egal")
+            print("egal")  # it executes whatever happens
 
 
 H = Handle()
