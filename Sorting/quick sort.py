@@ -22,5 +22,12 @@ def quick_sort(nums):
 
 
 if __name__ == '__main__':
-    item = [2, 2, 4,2,3,45,7]
-    print(quick_sort(item))
+    item = [
+        [2, 2, 4,2,3,45,7],
+        [1,2,3,4,5,6],
+        [9,8,7,6,5,4],
+        [],
+        [3,3,3,3,3]
+        ]
+    for i in item:
+        print(quick_sort(i))
