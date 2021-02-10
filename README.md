@@ -1,10 +1,11 @@
-This repository contains python scripts on different amusement games are as follows:
+This repository includes the information of basic concepts of Python.
+Namely
+  - Class and Object
+  - Decorators
+  - File Handling
+  - Sorting Techniques : quick sort, bubble sort
+  - Search Algorithms  : Binary search, Linear search
+  - Functions
+  - Linked List
+  - Exception Handling
   
-  - Calculator : script to perform basic computations
-  - CountDown  : starts countdown of time by giving input in seconds
-  - Random Password Generator : generates strong password with the combination of numbers, alphabets and Characters
-  - Random Wikipedia Article  : provides a wikipedia article randomly eg., about a celebrity, instrument....
-        Libraries: wikipedia, webbrowser
-  - Rock Paper scissor : This is a famous childrens game played by using hand gestures  
-  - Tree to linked list: converting the given binary tree to corresponding doubly linked list
-
